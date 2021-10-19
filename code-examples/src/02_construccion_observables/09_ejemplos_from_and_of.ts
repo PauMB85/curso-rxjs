@@ -22,6 +22,7 @@ const observer = {
 //const source$ = from('Pau');
 
 //Ej-4
+//rxjs tiene su propio mecanismo para tratar las peticiones, sin necesidad de usar fetch
 /*const source$ = from(fetch('https://api.github.com/users/paumb85'));
 source$.subscribe(async(resp) => {
   console.log(resp);
